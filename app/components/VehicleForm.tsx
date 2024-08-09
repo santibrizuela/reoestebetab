@@ -70,7 +70,7 @@ const VehicleForm: React.FC = () => {
 
   return (
     <div className='bg-slate-50 mt-16 pt-32 md:pt-20 mb-2' id='planesdeahorroform'>
-      <h2 className='m-2 text-center text-yellow-500 font-bold text-[25px] lg:text-[40px]'>SUSCRIBITE A TU PLAN DE AHORRO</h2>
+      <h2 className='m-2 text-center text-green-400 font-bold text-[25px] lg:text-[40px]'>SUSCRIBITE A TU PLAN DE AHORRO</h2>
       <h3 className='text-center font-semibold m-2'>
         Envianos un Whatsapp completando el formulario con tus datos y el vehículo que estás buscando.<br/>
         Se te asignará un vendedor para que te contacte.
@@ -161,7 +161,7 @@ const VehicleForm: React.FC = () => {
         <div className="md:col-span-2 flex justify-center">
           <button
             type="submit"
-            className="bg-yellow-500 text-white p-2 rounded mt-4 w-96"
+            className="bg-green-400 text-white p-2 rounded mt-4 w-96"
           >
             Enviar
           </button>

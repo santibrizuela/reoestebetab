@@ -165,7 +165,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
                 handleColorSelect={handleColorSelect}
             />
             <div className="flex flex-col gap-1 text-slate-500 text-sm">
-                <h2 className="text-3xl font-bold text-yellow-300">{product.name}</h2>
+                <h2 className="text-3xl font-bold text-green-200">{product.name}</h2>
                 <Horizontal/>
                 <h3 className="text-2xl font-bold text-slate-700">{formatPrice(product.price)}</h3>
                 <div className={product.inStock ? "text-teal-400" : "text-rose-400"}>{product.inStock ? "En stock" : "Out of stock"}</div>

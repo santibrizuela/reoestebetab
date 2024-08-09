@@ -24,7 +24,7 @@ const Usadospremium = async () => {
                             src={SachLogo} 
                             alt="Organizacón Sach"
                         />
-                        <h2 className='p-2 font-bold text-gradient text-[2.6rem] uppercase w-min text-yellow-500'>USADOS PREMIUM</h2>
+                        <h2 className='p-2 font-bold text-gradient text-[2.6rem] uppercase w-min text-green-400'>USADOS PREMIUM</h2>
                     </div>
                 </div>
             </div>

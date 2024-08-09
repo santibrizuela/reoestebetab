@@ -38,7 +38,7 @@ const ProductCard: React.FC<ProductCardProps> = ({data}) => {
                 <div>
                     {data.category}
                 </div>
-                <div className='font-semibold text-xl text-yellow-500'>{formatPrice(data.price)}</div>
+                <div className='font-semibold text-xl text-green-400'>{formatPrice(data.price)}</div>
                 
             </div>
         </div>

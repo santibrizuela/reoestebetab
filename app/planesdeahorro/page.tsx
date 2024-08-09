@@ -17,7 +17,7 @@ const Planesdeahorro = async () => {
                     <Image className='h-full w-full object-cover z-1' src={TopImage} alt='Planes de ahorro'/>
                     <div className='absolute top-[15%] max-w-[1240px] w-full text-white z-20 p-2 text-left'>
                         <h1 className="p-2 font-bold text-[2rem] md:text-[2.2rem] lg:text-[2.4rem] text-blue-900">AUTOTEAM</h1>
-                        <h2 className='p-2 font-bold text-[2.2rem] md:text-[2.4rem] lg:text-[2.6rem] uppercase text-yellow-500'>PLANES DE AHORRO</h2>
+                        <h2 className='p-2 font-bold text-[2.2rem] md:text-[2.4rem] lg:text-[2.6rem] uppercase text-green-400'>PLANES DE AHORRO</h2>
                     </div>
                 </div>
             </div>

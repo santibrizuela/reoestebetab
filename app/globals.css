@@ -16,14 +16,14 @@ overflow-x: hidden;
     Link{
         @apply w-fit
     }
-    .text-yellow-600{
+    .text-green-500{
         @apply  ease-in duration-300
     }
     .menuNav{
-        @apply w-fit text-yellow-600 ease-in duration-300
+        @apply w-fit text-green-500 ease-in duration-300
     }
     .menuNav:hover{
-        @apply text-yellow-400 ease-in duration-300
+        @apply text-green-300 ease-in duration-300
     }
     .navbar-btn .navbar-arrow {
         @apply ease-in duration-300;
@@ -32,22 +32,22 @@ overflow-x: hidden;
         @apply pl-5 ease-in duration-300;
     }
     .icolink{
-        @apply text-yellow-600 ease-in duration-300
+        @apply text-green-500 ease-in duration-300
     }
     .icolink:hover{
-        @apply text-yellow-400 ease-in duration-300
+        @apply text-green-300 ease-in duration-300
     }
     .btn {
-        @apply text-yellow-50 border-2 border-yellow-600 rounded-full font-medium inline-block p-2 shadow-xl uppercase bg-yellow-600 ease-in duration-300;
+        @apply text-green-50 border-2 border-green-500 rounded-full font-medium inline-block p-2 shadow-xl uppercase bg-green-500 ease-in duration-300;
     }
     .btn:hover {
-        @apply text-yellow-100 shadow-sm ease-in duration-300 bg-yellow-400 border-yellow-400;
+        @apply text-green-100 shadow-sm ease-in duration-300 bg-green-300 border-green-300;
     }
     .btn-outline{
-        @apply bg-transparent border-2 p-2 inline-block uppercase text-yellow-600 border-yellow-600 bg-none ease-in duration-300;
+        @apply bg-transparent border-2 p-2 inline-block uppercase text-green-500 border-green-500 bg-none ease-in duration-300;
     }
     .btn-outline:hover{
-        @apply bg-transparent border-yellow-200 text-yellow-200 bg-none ease-in duration-300;
+        @apply bg-transparent border-green-100 text-green-100 bg-none ease-in duration-300;
     }
     .btn-sm {
         @apply h-[48px] px-2 text-sm;
@@ -59,10 +59,10 @@ overflow-x: hidden;
         @apply text-base;
     }
     .btn-wpp{
-        @apply text-green-600 border-green-500
+        @apply text-green-500 border-green-400
     }
     .btn-wpp:hover{
-        @apply bg-green-600 border-none ease-in duration-300
+        @apply bg-green-500 border-none ease-in duration-300
     }
     .home-banner-link p:hover{
         @apply mr-5 ease-in duration-300

@@ -1,6 +1,6 @@
 import React from 'react'
 // img
-import Img1 from '@/public/headerImg.png';
+import Img1 from '@/public/reoeste/resistencias.png';
 import Img4 from '@/public/categoriesplanesdeahorro.png';
 import Img7 from '@/public/categoriesasesoramiento.png';
 import Image from 'next/image';
@@ -10,22 +10,22 @@ import { FaArrowRight } from 'react-icons/fa';
 const productos = [
   
     {
-      name: 'Mutimarca',
+      name: 'Resistencias',
       description:
-      'Catálogo de vehículos en stock.',
+      'Planas, Cartuchos, Sunchos.',
       cardimage: Img1,
       link:'multimarca',
     },{
-      name: 'Plan de Ahorro',
+      name: 'Sensores',
       description:
-      'Plan de ahorro en hasta 120 Cuotas.',
+      'Mecánicos, Campinis.',
       cardimage: Img4,
       link:'planesdeahorro',
     },
     {
-      name: 'Asesorate',
+      name: 'Controladores',
       description:
-       'Solicitá Asesoramiento con un vendedor.',
+       'Digitales, Analógicos.',
       cardimage: Img7,
       link:'https://wa.me/5491122502345?text=Hola!%20Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20un%20veh%C3%ADculo%20publicado%20en%20la%20web.',
     },
@@ -58,12 +58,12 @@ const Categories = () => {
                             {/* title */}
                             <div className='absolute bottom-full left-12 
                             group-hover:bottom-16 lg:group-hover:bottom-16 transition-all duration-700 z-50'>
-                            <Link href={link}><span className='text-3xl font-bold text-yellow-600 hover:text-yellow-400'>{name}</span></Link>
+                            <Link href={link}><span className='text-3xl font-bold text-green-500 hover:text-green-300'>{name}</span></Link>
                             </div>
                             {/* pretitle */}
                             <div className='absolute bottom-full left-12 
                             group-hover:bottom-24 transition-all duration-500 z-50'>
-                            <span className='text-yellow-50'>{description}</span>             
+                            <span className='text-green-50'>{description}</span>             
                             </div>
                             {/* button */}
                             <div className='absolute bottom-full left-12 

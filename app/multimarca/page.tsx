@@ -16,7 +16,7 @@ const Multimarca = async () => {
                     <Image className='h-full w-full object-cover' src={TopImage} alt='Catalogo completo'/>
                     <div className='absolute top-[20%] max-w-[1240px] w-full text-white z-20 p-2 text-left'>
                         <Image className=" w-32 md:w-40 lg:w-80" src={SachLogo} alt="Organizacón Sach"/>
-                        <h2 className='p-2 font-bold text-gradient text-[2.6rem] uppercase text-yellow-500'>Multimarca</h2>
+                        <h2 className='p-2 font-bold text-gradient text-[2.6rem] uppercase text-green-400'>Multimarca</h2>
                     </div>
                 </div>
             </div>

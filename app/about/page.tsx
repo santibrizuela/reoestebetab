@@ -16,7 +16,7 @@ const About = () => {
             <Image className='absolute z-1' layout='fill' objectFit='' src={TopImage} alt='Agencia de autos con plan de ahorro'/>
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                 <h2 className='py-2'>Acerca de</h2>
-                <h3 className='text-5xl text-yellow-500'>Nosotros</h3>
+                <h3 className='text-5xl text-green-400'>Nosotros</h3>
             </div>
         </div>
 
@@ -60,28 +60,28 @@ const About = () => {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <FaInstagram className='text-5xl text-yellow-400'/>
+                                <FaInstagram className='text-5xl text-green-300'/>
                             </Link>
                             <Link 
                                 href="https://www.facebook.com/organizacionsach"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <AiOutlineFacebook className='text-5xl text-yellow-400'/>
+                                <AiOutlineFacebook className='text-5xl text-green-300'/>
                             </Link>
                             <Link 
                                 href="https://wa.me/5491122502345?text=Hola!%20Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20un%20veh%C3%ADculo%20publicado%20en%20la%20web."
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <FaWhatsapp className='text-5xl text-yellow-400'/>
+                                <FaWhatsapp className='text-5xl text-green-300'/>
                             </Link>
                             <Link 
                                 href="#"
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <AiOutlineLinkedin className='text-5xl text-yellow-400'/>
+                                <AiOutlineLinkedin className='text-5xl text-green-300'/>
                             </Link>
                         </div>
                     </div>

@@ -30,7 +30,7 @@ const Contact = () => {
             className='max-w-[1240px] flex items-center mx-auto text-center lg:text-start md:px-2'
           >
             <div>
-              <h2 className='text-yellow-500 font-bold text-[45px] lg:text-[86px] leading-none mb-8'>
+              <h2 className='text-green-400 font-bold text-[45px] lg:text-[86px] leading-none mb-8'>
                 Contacto
               </h2>
               <a className='flex menuNav' target='_blank' rel='noreferrer' href='https://wa.me/5491122502345?text=Hola!%20Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20un%20veh%C3%ADculo%20publicado%20en%20la%20web.'>

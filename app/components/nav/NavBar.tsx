@@ -17,9 +17,9 @@ const NavBar = async () => {
             <div className="py-4 border-b[1px]">
                 <Container>
                     <div className="flex items-center justify-between gap-3 md-gap-0">
-                        <Link href="/" className={`${roboto.className} font-bold text-2xl text-yellow-400 uppercase`}>
+                        <Link href="/" className={`${roboto.className} font-bold text-2xl text-green-300 uppercase`}>
                             <Image
-                                src="/sachLogo.png"
+                                src="/reoeste/logoREOV.png"
                                 width={150}
                                 height={100}
                                 alt="Banner Image"
@@ -30,19 +30,25 @@ const NavBar = async () => {
                             className='uppercase'
                         >
                             <button className='btn btn-outline md:btn-lg flex items-center align-middle navbar-btn'>
-                                <span className="md:text-xl">Planes de Ahorro</span>
+                                <span className="md:text-xl">Servicio Técnico</span>
                                 <span className="navbar-arrow"><FaArrowRight className="md:text-xl ml-2 self-center" /></span>
                             </button>
                         
                         </Link>
                         
                         <div className="items-center gap-8 md:gap-12 hidden md:flex">
-                            <Link className="text-yellow-600 hover:text-yellow-400 uppercase" href="/multimarca">Multimarca</Link>
+                            <Link className="text-green-500 hover:text-green-300 uppercase" href="/multimarca">Resistencias</Link>
                             <Link 
-                                className="text-yellow-600 hover:text-yellow-400 uppercase" 
+                                className="text-green-500 hover:text-green-300 uppercase" 
                                 href="#contact"
                             >
-                                contacto
+                                Sensores
+                            </Link>
+                            <Link 
+                                className="text-green-500 hover:text-green-300 uppercase" 
+                                href="#contact"
+                            >
+                                Controladores
                             </Link>
                         </div>
                     </div>

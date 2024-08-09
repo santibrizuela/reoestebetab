@@ -1,7 +1,7 @@
 export const planesdeahorro = [
   {
     id: "65a654593eg73a351e9c",
-    name: "TRACKER 1.2 MT",
+    name: "Blindada horno",
     description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
     price: 235613,
     brand: "Chevrolet",
@@ -14,7 +14,7 @@ export const planesdeahorro = [
         color: "White",
         colorCode: "#FFFFFF",
         image:
-          "/products/orgsachimages/chevrolettracker12mt/tracker12mt1.png",
+          "/reoeste/blindadahornosup.png",
       },
       {
         color: "White",
