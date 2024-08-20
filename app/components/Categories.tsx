@@ -1,8 +1,8 @@
 import React from 'react'
 // img
 import Img1 from '@/public/reoeste/resistencias.png';
-import Img4 from '@/public/categoriesplanesdeahorro.png';
-import Img7 from '@/public/categoriesasesoramiento.png';
+import Img4 from '@/public/reoeste/sensores.png';
+import Img7 from '@/public/reoeste/controladores.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
@@ -18,16 +18,16 @@ const productos = [
     },{
       name: 'Sensores',
       description:
-      'Mecánicos, Campinis.',
+      'Termocuplas, Mecánicos, Campinis.',
       cardimage: Img4,
       link:'planesdeahorro',
     },
     {
       name: 'Controladores',
       description:
-       'Digitales, Analógicos.',
+       'Pirómetros, Digitales, Analógicos.',
       cardimage: Img7,
-      link:'https://wa.me/5491122502345?text=Hola!%20Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20un%20veh%C3%ADculo%20publicado%20en%20la%20web.',
+      link:'controladores',
     },
 ]
 
@@ -51,7 +51,7 @@ const Categories = () => {
                             z-40 transition-all duration-300'></div>
                             {/* img */}
                             <Image 
-                            className='group-hover:scale-125 transition-all duration-500' 
+                            className='group-hover:scale-125 transition-all duration-500 bg-black/5' 
                             src={cardimage} 
                             alt='Agencia de vehículos' 
                             />

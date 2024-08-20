@@ -34,7 +34,9 @@ const ProductCard: React.FC<ProductCardProps> = ({data}) => {
                 <div className='mt-8 font-bold text-md'>
                     {truncateText(data.name)}
                 </div>
-                    {data.brand} {data.year}
+                <div
+  dangerouslySetInnerHTML={{ __html: truncateText(data.description) }}
+/>
                 <div>
                     {data.category}
                 </div>
