@@ -511,11 +511,11 @@ export const planesdeahorro = [
   },
   {
     id: "65a654593eg73a351e9c",
-    name: "LLAVE SELECTORA ANAFE",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    name: "LLAVE ANAFE",
+    description: "-SMEG<br/>-PHILCO<br/>-ARISTON<br/>-LONGVIE<br/>-WINCO",
     price: 235613,
     brand: "ANAFES",
-    category: "LLAVE",
+    category: "SELECTORA",
     inStock: true,
     images: [
       {
@@ -529,13 +529,11 @@ export const planesdeahorro = [
   },
   {
     id: "65a654593eg73a351e9c",
-    name: "LLAVE SELECTORA HORNO",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    name: "LLAVE HORNO",
+    description: "-SMEG<br/>-PHILCO<br/>-ARISTON<br/>-LONGVIE",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "HORNOS",
+    category: "SELECTORA",
     inStock: true,
     images: [
       {
@@ -550,12 +548,10 @@ export const planesdeahorro = [
   {
     id: "65a654593eg73a351e9c",
     name: "PERILLA",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    description: "-HORNO<br/>-ANAFE<br/>-TERMOSTATO<br/>-TIMER<br/>-SELECTORA",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "REPUESTOS",
+    category: "SELECTORA",
     inStock: true,
     images: [
       {
@@ -570,12 +566,10 @@ export const planesdeahorro = [
   {
     id: "65a654593eg73a351e9c",
     name: "FICHA 20A",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    description: "-SILICONADO<br/>-FORRADO<br/>-ALTA TEMPERATURA",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "REPUESTOS",
+    category: "POWER",
     inStock: true,
     images: [
       {
@@ -589,13 +583,11 @@ export const planesdeahorro = [
   },
   {
     id: "65a654593eg73a351e9c",
-    name: "ANAFE 1 DISCO",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    name: "ANAFE X1",
+    description: "-DISCO<br/>-TERMOSTATO",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "ANAFES",
+    category: "DISCO 1000w",
     inStock: true,
     images: [
       {
@@ -609,13 +601,11 @@ export const planesdeahorro = [
   },
   {
     id: "65a654593eg73a351e9c",
-    name: "BORNERAS",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    name: "BORNERAS Y FICHAS",
+    description: "-UNIPOLAR<br/>-BIPOLAR<br/>-CERÁMICA<br/>-FICHA UNIPOLAR CERÁMICA<br/>-FICHA UNIPOLAR SILICONA<br/>-FICHA BIPOLAR CERÁMICA<br/>-FICHA BIPOLAR SILICONA",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "REPUESTOS",
+    category: "SALIDA",
     inStock: true,
     images: [
       {
@@ -629,13 +619,11 @@ export const planesdeahorro = [
   },
   {
     id: "65a654593eg73a351e9c",
-    name: "CABLE",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    name: "CABLES",
+    description: "-SILICONADO<br/>-FIBRA DE VIDRIO<br/>-TERMOCUPLA",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "REPUESTOS",
+    category: "CABLE",
     inStock: true,
     images: [
       {
@@ -650,12 +638,10 @@ export const planesdeahorro = [
   {
     id: "65a654593eg73a351e9c",
     name: "ESPAGUETI",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    description: "-SILICONADO<br/>-MALLADO<br/>-TERMOCONTRAÍBLE",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "REPUESTOS",
+    category: "AISLANTE",
     inStock: true,
     images: [
       {
@@ -670,12 +656,10 @@ export const planesdeahorro = [
   {
     id: "65a654593eg73a351e9c",
     name: "TEFLÓN",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    description: "-CON ADHESIVO<br/>-SIN ADHESIVO",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "REPUESTOS",
+    category: "AISLANTE",
     inStock: true,
     images: [
       {
@@ -690,10 +674,10 @@ export const planesdeahorro = [
   {
     id: "65a654593eg73a351e9c",
     name: "LÁMPARA",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    description: "-SMEG<br/>-LONGVIE<br/>-PHILCO<br/>-ARISTON",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
+    brand: "HORNOS",
+    category: "LÁMPARA",
     year: 2024,
     kms: 0,
     inStock: true,
@@ -709,13 +693,11 @@ export const planesdeahorro = [
   },
   {
     id: "65a654593eg73a351e9c",
-    name: "REDUCTOR",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    name: "CAPACITOR",
+    description: "-1000w<br/>-1500w<br/>-2000w<br/>-TERMOSTATO",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "ANAFES",
+    category: "REDUCTOR",
     inStock: true,
     images: [
       {
@@ -730,12 +712,10 @@ export const planesdeahorro = [
   {
     id: "65a654593eg73a351e9c",
     name: "PRENSACABLE",
-    description: "-Nafta<br/>-Manual<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
+    description: "-PLA<br/>-ALTA TEMPERATURA<br/>-Aire acondicionado<br/>-Cierre centralizado<br/>-Cristales eléctricos<br/>-Alarma<br/>-Bluetooth",
     price: 235613,
-    brand: "Chevrolet",
-    category: "Plan de ahorro",
-    year: 2024,
-    kms: 0,
+    brand: "REPUESTOS",
+    category: "CABLE",
     inStock: true,
     images: [
       {

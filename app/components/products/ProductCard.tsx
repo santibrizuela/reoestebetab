@@ -38,7 +38,7 @@ const ProductCard: React.FC<ProductCardProps> = ({data}) => {
   dangerouslySetInnerHTML={{ __html: truncateText(data.description) }}
 />
                 <div>
-                    {data.category}
+                    {data.brand}
                 </div>
                 <div className='font-semibold text-xl text-green-400'>{formatPrice(data.price)}</div>
                 
